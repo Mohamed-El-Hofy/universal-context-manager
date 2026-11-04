@@ -12,7 +12,7 @@ Thanks for helping improve Universal Context Manager. Keep changes focused on th
 
 ## License and source notices
 
-The repository has no project-wide license yet. Review [LICENSES.md](LICENSES.md) and retain all existing third-party notices. Do not add or change a repository-level license on behalf of the project owner.
+The project uses the MIT License in [LICENSE](LICENSE). Review [LICENSES.md](LICENSES.md) and retain all existing source collection notices and file-level licenses when copying or redistributing bundled material.
 
 ## Reporting a problem
 

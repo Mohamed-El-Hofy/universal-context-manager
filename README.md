@@ -165,8 +165,9 @@ The package check validates the single skill entry point and the catalog's local
 | `adapters/` | Optional host-specific lifecycle examples |
 | `tests/` | UCM tests and package structure check |
 | `docs/maintainers/` | Packaging notes, test records, and historical source records |
-| `LICENSES.md` | License inventory and project-level license status |
+| `LICENSE` | MIT License for Universal Context Manager project files |
+| `LICENSES.md` | License inventory and source collection attributions |
 
-## License status
+## License
 
-This repository does not yet declare one license for the complete combined project. The two vendored workflow collections retain their individual MIT license files; the integrated UCM source did not include a root license in the supplied project. See [LICENSES.md](LICENSES.md). Do not assume either upstream MIT license covers the whole combined package; the project owner must choose and confirm a repository-level license before presenting the entire repository as open source. GitHub's [license guidance](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) explains how licenses appear on repository pages.
+Universal Context Manager project files are licensed under the [MIT License](LICENSE), which permits use, modification, redistribution, sublicensing, and sale, provided the license and copyright notice are retained. The bundled workflow source collections keep their own MIT license files and attributions. See [LICENSES.md](LICENSES.md) for the scope and notices. Review ownership and notices before redistributing the bundled source material.
