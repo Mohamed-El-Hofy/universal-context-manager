@@ -1,0 +1,13 @@
+# Project continuity data is generated in the target project, never committed here.
+.ucm/
+
+# Node.js and local test artifacts
+node_modules/
+npm-debug.log*
+coverage/
+.test-work-*/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

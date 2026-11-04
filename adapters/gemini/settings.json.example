@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "AfterAgent": [
+      {
+        "hooks": [
+          {
+            "name": "ucm-lifecycle-marker",
+            "type": "command",
+            "command": "node \"path/to/universal-context-manager/scripts/ucm.mjs\" hook --agent 'Gemini CLI' --event AfterAgent --project .",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}

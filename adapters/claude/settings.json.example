@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/path/to/universal-context-manager/scripts/ucm.mjs\" hook --agent 'Claude Code' --event SessionEnd --project .",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}

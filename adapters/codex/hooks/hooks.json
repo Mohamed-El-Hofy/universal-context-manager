@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${PLUGIN_ROOT}/scripts/ucm.mjs\" hook --agent Codex --event SessionStart --project .",
+            "statusMessage": "Recording a session lifecycle marker"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${PLUGIN_ROOT}/scripts/ucm.mjs\" hook --agent Codex --event PreCompact --project .",
+            "statusMessage": "Recording a lifecycle marker before compaction"
+          }
+        ]
+      }
+    ]
+  }
+}
